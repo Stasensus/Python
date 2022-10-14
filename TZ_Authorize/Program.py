@@ -1,18 +1,3 @@
-# def check_password():
-#     auth_password = str(input('Enter password: '))
-#     if 3 < len(auth_password) < 33:
-#         f = open ("c:\\Users\\USER\\Desktop\\Python\\TZ_Authorize\\loginpass.txt")
-#         for line in f:
-#             if line == (auth_login + ':' + auth_password + '\n'):
-#                 final_solution = 'Successful authorization'
-#             else:
-#                 final_solution = 'Access denied'
-#         print(final_solution)
-#         f.close()
-#     else:
-#         print('Password should contain from 4 to 32 symbols')
-#         check_password()
-
 def check_loginpass():
     auth_login = str(input('To authorize enter login: '))
     auth_password = str(input('Enter password: '))
@@ -61,17 +46,3 @@ def choice():
     
 choice()
 
-
-# f = open ("c:\\Users\\USER\\Desktop\\Python\\TZ_Authorize\\loginpass.txt")
-# for line in f:
-#     if line == (auth_login + ':' + auth_password + '\n'):
-#         final_solution = 'Successful authorization'
-#     else:
-#         final_solution = 'Access denied'
-# print(final_solution)
-# for line in f:
-#     if auth_login + ':' + auth_password in line:
-#         print(line)
-#     else:
-#         print('Логин или пароль неверен')
-# f.close()
