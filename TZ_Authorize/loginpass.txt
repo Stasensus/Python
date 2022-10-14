@@ -1,0 +1,3 @@
+login:password
+stas:kireev
+log:pass
