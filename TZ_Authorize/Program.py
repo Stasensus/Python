@@ -1,4 +1,4 @@
-from os import access
+
 
 
 FILE = 'c:\\Users\\USER\\Desktop\\Python\\TZ_Authorize\\loginpass.txt'
